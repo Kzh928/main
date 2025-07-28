@@ -1,0 +1,14 @@
+# このファイルがあるフォルダがプロジェクトのルートであることを示す
+root = true
+
+# すべてのファイルに適用する基本設定
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Pythonファイルにのみ、文字コードをUTF-8に指定
+[*.py]
+charset = utf-8
+indent_style = space
+indent_size = 4

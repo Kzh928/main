@@ -1,0 +1,7 @@
+/myenv
+*.csv
+*.xlsx
+*.json
+*.png
+*.pkl
+*.pth

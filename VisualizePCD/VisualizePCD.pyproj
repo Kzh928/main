@@ -1,0 +1,259 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>9787807f-a114-4949-b839-3239501d0617</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>25.0602.1122.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>VisualizePCD</Name>
+    <RootNamespace>VisualizePCD</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.9</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="00000.py" />
+    <Compile Include="00001.py" />
+    <Compile Include="000010.py" />
+    <Compile Include="000012.py" />
+    <Compile Include="00002.py" />
+    <Compile Include="00003.py" />
+    <Compile Include="00004.py" />
+    <Compile Include="00005.py" />
+    <Compile Include="00006.py" />
+    <Compile Include="00007.py" />
+    <Compile Include="00008.py" />
+    <Compile Include="00009.py" />
+    <Compile Include="0001.py" />
+    <Compile Include="0002.py" />
+    <Compile Include="0003.py" />
+    <Compile Include="0004.py" />
+    <Compile Include="0005.py" />
+    <Compile Include="0006.py" />
+    <Compile Include="0007.py" />
+    <Compile Include="0008.py" />
+    <Compile Include="0009.py" />
+    <Compile Include="01.py" />
+    <Compile Include="02.py" />
+    <Compile Include="03.py" />
+    <Compile Include="04.py" />
+    <Compile Include="05.py" />
+    <Compile Include="06.py" />
+    <Compile Include="07.py" />
+    <Compile Include="08.py" />
+    <Compile Include="09.py" />
+    <Compile Include="10.py" />
+    <Compile Include="11.py" />
+    <Compile Include="12.py" />
+    <Compile Include="13.py" />
+    <Compile Include="14.py" />
+    <Compile Include="15.py" />
+    <Compile Include="16.py" />
+    <Compile Include="17.py" />
+    <Compile Include="18.py" />
+    <Compile Include="19.py" />
+    <Compile Include="点群補完10.py" />
+    <Compile Include="点群補完7.py" />
+    <Compile Include="点群補完12.py" />
+    <Compile Include="点群補完11.1.py" />
+    <Compile Include="点群補完11.py" />
+    <Compile Include="点群補完13.py" />
+    <Compile Include="点群補完14.py" />
+    <Compile Include="点群補完15.py" />
+    <Compile Include="点群補完16.py" />
+    <Compile Include="点群補完17.py" />
+    <Compile Include="stepB.1.Adetect_and_expand_wall.py" />
+    <Compile Include="0014.py" />
+    <Compile Include="stepB.1.C.py" />
+    <Compile Include="stepB.1.B..py" />
+    <Compile Include="step4.6.2_visualize_confidence_gradient.py" />
+    <Compile Include="stepB.2.B.py" />
+    <Compile Include="step4.6.1_visualize_confidence_gradient.py" />
+    <Compile Include="0020.py" />
+    <Compile Include="点群補完18.py" />
+    <Compile Include="0022.py" />
+    <Compile Include="0023.py" />
+    <Compile Include="0024.py" />
+    <Compile Include="stepB.2.A.py" />
+    <Compile Include="0026.py" />
+    <Compile Include="stepB.2.C.py" />
+    <Compile Include="0028.py" />
+    <Compile Include="0029.py" />
+    <Compile Include="step1.3_extract_wall_fully_automated.py" />
+    <Compile Include="a.py" />
+    <Compile Include="b.py" />
+    <Compile Include="c.py" />
+    <Compile Include="点群補完1.py" />
+    <Compile Include="点群補完2.py" />
+    <Compile Include="点群補完3.py" />
+    <Compile Include="点群補完4.py" />
+    <Compile Include="h.py" />
+    <Compile Include="点群補完6.py" />
+    <Compile Include="点群補完5.py" />
+    <Compile Include="点群補完8.py" />
+    <Compile Include="点群補完9.py" />
+    <Compile Include="step4.6_visualize_confidence_gradient.py" />
+    <Compile Include="step1.1_detect_wall_with_orientation.py.py" />
+    <Compile Include="step1.2_extract_wall_final_v2.py" />
+    <Compile Include="step2.6C_visualize_all_annotations.py" />
+    <Compile Include="step4C_inference.py" />
+    <Compile Include="step3C_train_pointnet.py" />
+    <Compile Include="step2.5C_merge_datasets.py" />
+    <Compile Include="step2C_add_negatives_A.py" />
+    <Compile Include="pipeline.py" />
+    <Compile Include="step2C_add_negatives_B.py" />
+    <Compile Include="step2C_add_negatives_C.py" />
+    <Compile Include="step2C_add_negatives_D.py" />
+    <Compile Include="step5B_density_filter.py" />
+    <Compile Include="step5-1_density_filter.py" />
+    <Compile Include="step5-2_cluster_filter.py" />
+    <Compile Include="step2A_add_negatives_A.py" />
+    <Compile Include="step2A_add_negatives_B.py" />
+    <Compile Include="step3A_train_pointnet.py" />
+    <Compile Include="step2.5A_merge_datasets.py.py" />
+    <Compile Include="step4B_inference.py" />
+    <Compile Include="step5A_1_density_filter.py" />
+    <Compile Include="step4A_inference.py" />
+    <Compile Include="25.0603.1000.py" />
+    <Compile Include="25.0602.1308.py" />
+    <Compile Include="25.0602.0055.py" />
+    <Compile Include="25.0602.2237.py" />
+    <Compile Include="step4_inference.py" />
+    <Compile Include="step2_interactive_annotator.py" />
+    <Compile Include="25.0602.1122.py" />
+    <Compile Include="25.0602.2235.py" />
+    <Compile Include="25.0603.1100.py" />
+    <Compile Include="step1_process_and_create_work_area.py" />
+    <Compile Include="25.0528.1623.py" />
+    <Compile Include="25.0528.1843.py" />
+    <Compile Include="step3_train_pointnet.py" />
+    <Compile Include="コード用.py" />
+    <Compile Include="25.0528.1744.py" />
+    <Compile Include="25.0528.1845.py" />
+    <Compile Include="25.0528.1844.py" />
+    <Compile Include="25.0528.0236.py" />
+    <Compile Include="25.0530.0000.py" />
+    <Compile Include="25.0528.1622.py" />
+    <Compile Include="25.0529.1359.py" />
+    <Compile Include="25.0227.0100.py" />
+    <Compile Include="25.0227.0111.py" />
+    <Compile Include="25.0227.0116.py" />
+    <Compile Include="25.0227.0130.py" />
+    <Compile Include="25.0227.0136.py" />
+    <Compile Include="25.0528.1627.py" />
+    <Compile Include="25.0528.1629.py" />
+    <Compile Include="25.0528.1630.py" />
+    <Compile Include="25.0530.0040.py" />
+    <Compile Include="25.0528.1628.py" />
+    <Compile Include="25.0530.1119.py" />
+    <Compile Include="25.0531.1407.py" />
+    <Compile Include="25.0530.2118.py" />
+    <Compile Include="25.0602.1600.py" />
+    <Compile Include="鉄筋検出手法いろいろ.py" />
+    <Compile Include="0724.1710.py" />
+    <Compile Include="0724.1902.py" />
+    <Compile Include="0725.1400.py" />
+    <Compile Include="0725.1519.py" />
+    <Compile Include="0726.1055.py" />
+    <Compile Include="0731.1343.py" />
+    <Compile Include="0731.1627.py" />
+    <Compile Include="0802.1510.py" />
+    <Compile Include="pyOpen3d_csv_plot_2nd.py" />
+    <Compile Include="0826.1247.py" />
+    <Compile Include="0901.1928.py" />
+    <Compile Include="0902.1446.py" />
+    <Compile Include="ミス08　近傍探索奥行，縦軸.py" />
+    <Compile Include="25.0528.1625.py" />
+    <Compile Include="25.0106.1411.py" />
+    <Compile Include="ミス09　近傍探索　全点対象.py" />
+    <Compile Include="0912.2000中間発表.py" />
+    <Compile Include="25.0528.1626.py" />
+    <Compile Include="中間発表24.12.201.py" />
+    <Compile Include="中間発表24.12.202.py" />
+    <Compile Include="中間発表24.12.203.py" />
+    <Compile Include="中間発表24.12.204.py" />
+    <Compile Include="中間発表24.12.205.py" />
+    <Compile Include="25.0106.1415.py" />
+    <Compile Include="step1.5_helper_select_annotation_area.py" />
+    <Compile Include="1226.2220.py" />
+    <Compile Include="25.0107.1514.py" />
+    <Compile Include="1020.2012.py" />
+    <Compile Include="1020.2105.py" />
+    <Compile Include="1218.1921.py" />
+    <Compile Include="1020.2118.py" />
+    <Compile Include="1218.1707.py" />
+    <Compile Include="1218.2035.py" />
+    <Compile Include="25.0107.17.54.py" />
+    <Compile Include="1218.1741.py" />
+    <Compile Include="25.0107.1648.py" />
+    <Compile Include="1218.2400.py" />
+    <Compile Include="24.1218.0210.py" />
+    <Compile Include="コード09　DBSCAN　クラスタリング.py" />
+    <Compile Include="0904.1814.py" />
+    <Compile Include="ミス07　一番手前集めDBSCAN.py" />
+    <Compile Include="0912.2001中間発表.py" />
+    <Compile Include="コード001　ひな形　pcaかけて奥行きで色付け.py" />
+    <Compile Include="コード08　ボクセルグリッドフィルタ.py" />
+    <Compile Include="00. 近傍探索　.py" />
+    <Compile Include="00.人に聞くやつ座標軸.py" />
+    <Compile Include="ミス01　区切り方x軸輪切り表示回数バカ.py" />
+    <Compile Include="ミス05　適当pcaかけた.py" />
+    <Compile Include="0.考え方メモ.py" />
+    <Compile Include="コード05　yz平面微小区間区切り色分け好きな間隔で.py" />
+    <Compile Include="コード04　yz平面区切り一番手前だけ表示.py" />
+    <Compile Include="0830.1604.py" />
+    <Compile Include="ミス06　鉄筋検出（仮）.py" />
+    <Compile Include="コード07　一番手前だけ使って三角形つくるだけ.py" />
+    <Compile Include="コード06　フィルタリングなし全点から三角形作る，面積で除外.py" />
+    <Compile Include="0823.1623.py" />
+    <Compile Include="コード02　実行中にコード入力or前もって手入力.py" />
+    <Compile Include="コード03　x軸方向（奥行き）任意間隔色変更.py" />
+    <Compile Include="コード01　出力窓　大きさ変更.py" />
+    <Compile Include="ミス03　平均値処理.py" />
+    <Compile Include="0807.1947.py" />
+    <Compile Include="25.0528.1624.py" />
+    <Compile Include="ミス02　頂点移動.py" />
+    <Compile Include="ミス04　法線ベクトル.py" />
+    <Compile Include="visual.py" />
+    <Compile Include="VisualizePCD.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.13" />
+    <InterpreterReference Include="Global|PythonCore|3.9" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>env</Id>
+      <Version>0.0</Version>
+      <Description>env (Python 3.13 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".editorconfig" />
+    <Content Include="step4.5_visualize_confidence.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
