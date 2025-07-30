@@ -162,7 +162,7 @@ if __name__ == '__main__':
 
     
     FULL_PCD_PATH = 'mid360_XYZ_Reflect_data_03-28-13-53-11.csv'
-    REBAR_MODEL_PATH = 'pointnet_model_3class_final_robust.pth'
+    REBAR_MODEL_PATH = 'pointnet_model_3class_final_robust_1004.pth'
     INITIAL_SEED_DIST_THRESH = 15.0; NORMAL_X_THRESHOLD = 0.9
     NEIGHBOR_SEARCH_RADIUS = 100.0; NORMAL_ANGLE_THRESHOLD = 7.5
     NUM_NEIGHBORS = 64
